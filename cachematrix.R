@@ -9,6 +9,7 @@
 makeCacheMatrix <- function(A = matrix()) {
         ## Initial value for the inverse of the matrix
         Ainv <- NULL
+        ## function which takes a matrix as an argument and assigns it to A
         setMatrix <- function(B) {
                 A <<- B
                 Ainv <<- NULL
